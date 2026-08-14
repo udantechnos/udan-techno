@@ -18,7 +18,7 @@ import { CommonModule } from '@angular/common';
             Solutions We've <span class="text-blue-600">Built</span>
           </h2>
           <p class="text-slate-600 text-sm sm:text-base">
-            Proven enterprise software, IoT farm telemetry, and cross-platform apps built for growing businesses.
+            Proven enterprise software, IoT farm telemetry, and cross-platform mobile apps built for growing businesses.
           </p>
         </div>
 
@@ -67,14 +67,21 @@ export class ProjectsComponent {
       title: 'Smart Farm Solutions',
       category: 'AgriTech & IoT',
       icon: '🌾',
-      description: 'End-to-end smart agriculture platform with real-time soil telemetry and multilingual mobile app.',
-      technologies: ['Flutter', 'ESP32 IoT', 'REST API', 'SQL Server']
+      description: 'End-to-end smart agriculture platform with real-time soil telemetry and automated motor starter controls.',
+      technologies: ['Android', 'ESP32 IoT', 'REST API', 'SQL Server']
     },
     {
       title: 'Store & Inventory ERP',
       category: 'Supply Chain',
       icon: '📦',
       description: 'Multi-branch retail store and inventory management with barcode scanning and automated stock replenishment.',
+      technologies: ['Angular 21', '.NET Core', 'SQL Server', 'Flutter']
+    },
+    {
+      title: 'Nursery Management System',
+      category: 'Agri ERP',
+      icon: '🪴',
+      description: 'Comprehensive plant nursery management platform for batch tracking, plant growth cycles, inventory, and sales billing.',
       technologies: ['Angular 21', '.NET Core', 'SQL Server']
     },
     {
@@ -82,14 +89,7 @@ export class ProjectsComponent {
       category: 'Procurement',
       icon: '📑',
       description: 'Enterprise procurement workflow automation from requisition approvals to automated vendor purchase orders.',
-      technologies: ['Angular 21', 'C# Backend', 'MySQL']
-    },
-    {
-      title: 'Enterprise Operations Portal',
-      category: 'Web SaaS',
-      icon: '🏢',
-      description: 'Centralized executive dashboard unifying sales metrics, attendance, and financial audit logs.',
-      technologies: ['Angular 21', 'Tailwind CSS', 'REST APIs']
+      technologies: ['Angular 21', '.NET Core', 'SQL Server', 'Flutter']
     },
   ];
 }
