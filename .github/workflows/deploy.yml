@@ -30,6 +30,9 @@ jobs:
       - name: Build Angular
         run: npm run build -- --configuration production --base-href /
 
+      - name: Add CNAME
+        run: echo "udantechno.online" > ./dist/udan-techno/browser/CNAME
+
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
